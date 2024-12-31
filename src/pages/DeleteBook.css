@@ -1,0 +1,93 @@
+/* Container styling */
+.delete-book-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .delete-book-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .delete-button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }
+  
+  /* Message Styling */
+  .error-message, .success-message {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    background-color: #ffdddd;
+    border: 1px solid #ff4d4d;
+    border-radius: 4px;
+  }
+  
+  .success-message {
+    color: green;
+    background-color: #ddffdd;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 600px) {
+    .delete-book-container {
+      padding: 15px;
+    }
+  
+    .input-field {
+      width: 50%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .delete-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

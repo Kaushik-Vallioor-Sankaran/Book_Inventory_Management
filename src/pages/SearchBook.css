@@ -1,0 +1,113 @@
+/* Container styling */
+.search-book-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Styling */
+  .search-book-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styling */
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .book-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .book-table td {
+    background-color: #fff;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 600px) {
+    .search-book-container {
+      padding: 15px;
+    }
+  
+    .search-input {
+      width: 50%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .search-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .book-table th, .book-table td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
